@@ -15,3 +15,50 @@ ul,
 li {
   list-style: none;
 }
+:root {
+  --principal_green : #48CFAD;
+  --principal_gray : #434A54
+  --ligth_gray_sotf : #E6E9ED;
+  --ligth_gray_hrad : #CCD1D9;
+  --dark_gray_sotf : #656D78;
+  --dark_gray_hard : #23282D;
+  --secundary_purple : #AC92EB;
+  --secundary_green: #A0D368;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px repeat(5,1fr);
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--principal_green);
+}
+
+.logo-section {
+  grid-row: span 2;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+
+
+
+.social-red {
+  display: inline-block;
+  margin: 0 10px;
+}
+.social-red {
+  /* background-image: url('/Assets/Social_Media/svg/001-facebook.svg'); */
+  color: white;
+}
