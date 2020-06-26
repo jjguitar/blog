@@ -30,8 +30,6 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 50px 1fr;
-  height: 100vh;
-  width: 100vw;
 }
 
 .header {
@@ -59,7 +57,7 @@ li {
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -67,7 +65,7 @@ li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 
 .social-red {
@@ -106,9 +104,34 @@ h1 {
   margin-bottom: 20px;
 }
 
-.main button {
+.main form button {
   width: 120px;
   height: 50px;
   font-size: 15px;
   font-weight: 900;
 }
+
+/* Clases de blogs
+ */
+
+ .footer {
+   height: 50px;
+   position: relative;
+   bottom: 0;
+   background-color: var(--dark_gray_hard);
+ }
+
+ .logo-section a.about-black {
+   color: var(--dark_gray_hard);
+ }
+
+ .main-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 40px 40px
+ }
+ .main-image img {
+   max-width: 100%;
+   height: auto;
+ }
