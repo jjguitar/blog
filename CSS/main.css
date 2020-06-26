@@ -80,7 +80,7 @@ li {
 }
 
 .container-main {
-  background-image: url('/Assets/Imágenes/Cover.png');
+  background-image: url('/Assets/imagenes/Cover.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
